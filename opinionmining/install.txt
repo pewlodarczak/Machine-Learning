@@ -1,0 +1,13 @@
+py -3 -m venv .venv
+.venv\scripts\activate
+
+py -3 -m pip install --upgrade pip
+
+# Natural Language Toolkit (NLTK)
+python -m pip install nltk
+
+pip install -U scikit-learn
+pip install -U Pandas
+
+Training set
+https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/google_play_store_apps_reviews_training.csv
